@@ -1,0 +1,12 @@
+body {
+	margin: 0 auto;
+}
+.container {
+	max-width: $max-width;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.container .photo-gallery {
+	margin-top: 50px;
+}
