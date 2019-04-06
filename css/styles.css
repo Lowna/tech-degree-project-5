@@ -178,23 +178,29 @@ select {
   text-transform: none;
 }
 
-body {
-  margin: 0 auto;
-}
-
 .container {
-  max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.container .photo-gallery {
-  margin-top: 50px;
+.photo-gallery {
+  /*text-align: center;*/
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 25px;
+  padding: 0;
+  text-align: left;
+}
+
+img {
+  padding: 1em;
 }
 
 .search {
   margin-top: 25px;
+  text-align: center;
 }
 
 .search #searchBar {
