@@ -1,4 +1,13 @@
-img {
+.photo-gallery {
+	margin-top: 25px;
+}
+.photo-gallery img {
 	padding: 1em;
-
+	
+}
+@media (min-width: 1000px) {
+	.photo-gallery img a {
+		width: 200px;
+		height: 200px;
+	}
 }
