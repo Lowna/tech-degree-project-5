@@ -1,13 +1,11 @@
 .photo-gallery {
 	margin-top: 25px;
+	margin-bottom: 50px;
 }
 .photo-gallery img {
-	padding: 1em;
-	
-}
-@media (min-width: 1000px) {
-	.photo-gallery img a {
-		width: 200px;
-		height: 200px;
-	}
+	margin: 1em;
+
+	-webkit-box-shadow: 0px 3px 9px 1px rgba(207,207,207,1);
+	-moz-box-shadow: 0px 3px 9px 1px rgba(207,207,207,1);
+	box-shadow: 0px 3px 9px 1px rgba(207,207,207,1);
 }
