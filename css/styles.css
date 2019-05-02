@@ -189,6 +189,10 @@ select {
   .container {
     max-width: 1000px;
   }
+
+  .lightboxOverlay {
+    max-width: 100%;
+  }
 }
 .photo-gallery {
   margin-top: 25px;
